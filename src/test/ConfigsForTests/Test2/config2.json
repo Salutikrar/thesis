@@ -1,0 +1,14 @@
+{
+    "Company" : {
+        "Employees" : [
+            {
+                "name" : "Dan D-Veloper",
+                "job" : 5,
+                "birth_date" : "04.61.1999",
+                "experience" : 5,
+                "telegram_url" : "https://t.me/Test1",
+                "e_mail": "test1@mai.ru"
+            }
+        ]
+    }
+}

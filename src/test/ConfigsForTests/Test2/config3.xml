@@ -1,0 +1,19 @@
+<root>
+    <Company>
+        <Employees>
+            <name>Dan D. Veloper</name>
+            <job>Developer</job>
+            <birth_date>04.06.1999</birth_date>
+            <experience>5</experience>
+            <telegram_url>https://t.me/Test1</telegram_url>
+        </Employees>
+        <Employees>
+            <name>Dora D. Veloper</name>
+            <job>Project Manager</job>
+            <birth_date>05.06.1999</birth_date>
+            <experience>1</experience>
+            <telegram_url>https://t.me/Test2</telegram_url>
+        </Employees>
+        <Adress>Moscow, ...</Adress>
+    </Company>
+</root>

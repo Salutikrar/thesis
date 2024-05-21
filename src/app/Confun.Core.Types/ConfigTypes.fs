@@ -12,6 +12,7 @@ and [<ExcludeFromCodeCoverage>] ConfigValue =
     | Null
     | Int of int32
     | Float of float
+    | Bool of bool
     | Port of uint16
     | Str of string
     | NullableString of string

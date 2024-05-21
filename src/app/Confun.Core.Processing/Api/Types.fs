@@ -4,6 +4,8 @@ open System.Diagnostics.CodeAnalysis
 
 open Confun.Core.Types
 
+type ParsingResult = ConfunMap * ConfunError
+
 [<ExcludeFromCodeCoverage>]
 type ValidationResult<'TError> =
     | Valid
@@ -28,6 +30,16 @@ type ValidationOptions =
     | MapValidationSteps of MapValidationStep list
     | ParamValidationSteps of ConfigParamValidationStep list
     | ValidationSteps of ValidationSteps
+
+// type Parsing =
+//     | Valid of ConfunMap * list<char>
+//     | Invalid of ConfunError
+
+// type ParsingArr =
+//     | ValidArr of list<ConfigValue> * list<char>
+//     | InvalidArr of ConfunError
+
+
 
 module ValidationOptions =
     let empty = (ValidationSteps { MapSteps = []; ParamSteps = [] })

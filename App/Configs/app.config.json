@@ -1,0 +1,8 @@
+{
+  "AppPort": 8080,
+  "DatabaseConnection": {
+    "Instance": "localhost:8080",
+    "User": "UserName",
+    "Pwd": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "test3" : [
+        {
+            "name" : "config1",
+            "path" : "C:\\start\\vs\\src\\test\\ConfigsForTests\\Test1\\config1.yaml",
+            "format" : "yaml"
+        },
+        {
+            "name" : "config2",
+            "path" : "C:\\start\\vs\\src\\test\\ConfigsForTests\\Test2\\config2.json",
+            "format" : "json",
+            "required" : {
+                "Company" : {
+                    "Adress" : {"type" : "string"},
+                    "Employees" : [
+                        {"experience" : {"type" : "int"}}
+                    ]
+                }
+            }
+        },
+        {
+            "name" : "config3",
+            "path" : "C:\\start\\vs\\src\\test\\ConfigsForTests\\Test1\\config3.xml",
+            "format" : "xml"
+        },
+        {
+            "group" : ["config3"],
+            "required" : {
+                "Company" : {"type" : "string"}
+            }
+        },
+        {
+            "group" : ["config1", "config2"],
+            "required" : {
+                "Company" : {
+                    "Employees" : [
+                        {
+                            "name" : {"type" : "string", "regex" : "[a-zA-Z .]+"},
+                            "job" : {"type" : "string"},
+                            "birth_date" : {"type" : "data"},
+                            "telegram_url" : {"type" : "url"},
+                            "e_mail" : {"type" : "E-mail"}
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

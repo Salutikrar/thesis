@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\app\Confun.Core.Processing\Confun.Core.Processing.fsproj" />
+    <ProjectReference Include="..\..\app\Confun.Core.Types\Confun.Core.Types.fsproj" />
+    <ProjectReference Include="..\..\app\Confun.Check.Syntax.Json\Confun.Check.Syntax.Json.fsproj" />
+  </ItemGroup>
+
+</Project>

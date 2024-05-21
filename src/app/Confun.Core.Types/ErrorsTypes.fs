@@ -6,13 +6,36 @@ open System.Diagnostics.CodeAnalysis
 type ConfunError =
     | ValidationError of string
     | GenerationError of string
+    | ParsingError of string
+    | StructureError of string
 
 module ConfunError =
     let toString =
         function
         | ValidationError error -> error
         | GenerationError error -> error
+        | ParsingError error -> error
+        | StructureError error -> error
 
+
+    let addToError prefix =
+        function
+            | ValidationError error ->
+                error
+                |> (sprintf "%s\n%s" prefix)
+                |> ValidationError
+            | GenerationError error ->
+                error
+                |> (sprintf "%s\n%s" prefix)
+                |> GenerationError
+            | ParsingError error ->
+                error
+                |> (sprintf "%s\n%s" prefix)
+                |> ParsingError
+            | StructureError error ->
+                error
+                |> (sprintf "%s\n%s" prefix)
+                |> StructureError
     let addPrefixToError prefix =
         function
             | ValidationError error ->
@@ -23,6 +46,14 @@ module ConfunError =
                 error
                 |> (sprintf "%s. %s" prefix)
                 |> GenerationError
+            | ParsingError error ->
+                error
+                |> (sprintf "%s. %s" prefix)
+                |> ParsingError
+            | StructureError error ->
+                error
+                |> (sprintf "%s. %s" prefix)
+                |> StructureError
 
     let addPrefixToErrors prefix errorList =
         errorList |> List.map (addPrefixToError prefix)

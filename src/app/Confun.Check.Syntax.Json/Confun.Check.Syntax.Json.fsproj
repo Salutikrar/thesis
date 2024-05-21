@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup >
+    <ProjectReference Include="..\Confun.Core.Processing\Confun.Core.Processing.fsproj" />
+    <ProjectReference Include="..\Confun.Core.Types\Confun.Core.Types.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JsonValidation.fs" />
+    <Compile Include="XmlValidation.fs" />
+    <Compile Include="YamlValidation.fs" />
+    <Compile Include="CheckConfigs.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="YamlDotNet" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>Confun.Check.Syntax.Json</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.2-alpha</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Viridovics</Authors>
+    <Description>
+      Confun is a system for describing, validating and generating config files usings F#. This package is Json config generator.
+
+      Examples:
+      https://github.com/Viridovics/Confun/tree/master/src/examples
+    </Description>
+    <PackageProjectUrl>https://github.com/Viridovics/Confun</PackageProjectUrl>
+    <PackageTags></PackageTags>
+    <Copyright>Copyright ©2020 Viridovics</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/Viridovics/Confun</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>
