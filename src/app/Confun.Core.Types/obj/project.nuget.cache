@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MSL0+Br8sxtvwzZmyhzblXPEzs4yEl1J5sGfwC6iwZ580bKkYLsO+lWUDS6p2sCeunzIVV4iEdpWvEHtEfyA/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Документы\\GitHub\\thesis\\src\\app\\Confun.Core.Types\\Confun.Core.Types.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

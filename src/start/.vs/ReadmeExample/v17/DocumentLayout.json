@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\start\\vs\\src\\examples\\ReadmeExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\start\\vs\\src\\examples\\ReadmeExample\\buildAndRun.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:buildAndRun.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670A8058-B356-4078-A45D-A39C9C4A14B2}|ConfigGenerator\\ConfigGenerator.fsproj|c:\\start\\vs\\src\\examples\\readmeexample\\configgenerator\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{670A8058-B356-4078-A45D-A39C9C4A14B2}|ConfigGenerator\\ConfigGenerator.fsproj|solutionrelative:configgenerator\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "buildAndRun.ps1",
+              "DocumentMoniker": "C:\\start\\vs\\src\\examples\\ReadmeExample\\buildAndRun.ps1",
+              "RelativeDocumentMoniker": "buildAndRun.ps1",
+              "ToolTip": "C:\\start\\vs\\src\\examples\\ReadmeExample\\buildAndRun.ps1",
+              "RelativeToolTip": "buildAndRun.ps1",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOzSURBVEhLpZZLbBtVFIb/GcdJ45CEFqmKBM6iqHEqJXVVCRBLVrDIDlq6YUErsQN2sEshYlOpCx4rkGiLlA3qIhWkQQioI0SSKjExrmhwmzS1HeO3x47t8WNet\u002Bfejh1bpJFrPunXuT6e\u002Bc\u002Bcc\u002B84kUAEAgHGY6fMzc19OjMz8xUtCyRTJPeDsce\u002BvECnRMJhdnt5mU1PT39Ctz5HcgiTg3iaApz5\u002BXlRqJMish1FN52K4x4dxYXz5y9Skffp47OkfYs0C3RDJ0Wam\u002Bz1ekWiExYWFuzVHlNTU69QCJGKItEKL2Ca5lNLURQWpr0IBoN8bmdIzwvDFv7XiIaHh\u002BF2uzExMcE/DpCcfNFKV5u8n55Ecw8mJ8VTtGFZFn7\u002BxQfX4OBjI8pxUZoig8VFCZ4zTNNiTGKSJLF8Llu/cO7NZ7hHs4DdZhvhcASRjILR42MwyZQbZlWNTBkG\u002B3uFuUFrshavM6MoO2QEF2/hg3fOCO\u002BWPWg8354eRnfgHDqMtOzCttSPoHkIXwbSOD16FB/9HsVndxR8n5PwXZrhyr86rkZr0DQTsVisSgaClj34rzL5Aqo9/YjU6KaqiTipb8hFNzHcfOskouki/thKIlmuI12swajVEcsWkM\u002BkErbtwR2olgO5OsMOFdipGohVdMRp/dJsABINwHfOK0a2lStjM1tCWa0jkc5hN5NaJQPBgR1UHX2IawzxCjc3cK\u002BkI6wa\u002BPg1D3Sa9\u002BXVCBLFOnYUFam8ih5Dh15IQy3kfrRtn9xBIpEE3YKHuoyNoo61fB1La/dx4/UX8fYLA3hjdg3frkUxwjQ41AqcuoZByUIpX2CVUmmeO3JaOmg/16HtMHKGA34VuEtPvkkaO\u002BKCU2I4\u002Bc0Krp89jfX3XsUPZ0/hSI\u002BEilqDbhioKCnNt\u002Bhr/lw0j\u002BmJE\u002BMi0WD2xk\u002B4ZRxFyekSR5EfUYPGYpH4L5pF51ZidHYJmb7vpTgkG\u002BhbX4hd\u002B\u002BKSW3xB9NhRPHUrVU3Hh55eHBs5LIbGn4ReImg0it3CLgxqPpXK4NiYB3/6/XjZO4mlUBTXc5mAMLBp2YN2DHpdsyUVK/e2cZu0EtrG8j8P4N\u002BKIpTOY/Xv\u002B1gKbEDZLWF9YxN3o0nEMzmUC8pN20LQHNH4uEckGkx//jW9nYwuoEuoO6nRYVuntKaRSbKMWrWmVSvl8oM7/uO\u002B335V7Av2Cng8YyLRLS7XwLsUFklhkbARBYgR0ik7dkuS9JcdmzQKHCLxP3k8dkuNxP\u002BN4dEGeARCm\u002Bt1DHMFWgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-03-21T09:32:32.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.fs",
+              "DocumentMoniker": "C:\\start\\vs\\src\\examples\\ReadmeExample\\ConfigGenerator\\Program.fs",
+              "RelativeDocumentMoniker": "ConfigGenerator\\Program.fs",
+              "ToolTip": "C:\\start\\vs\\src\\examples\\ReadmeExample\\ConfigGenerator\\Program.fs",
+              "RelativeToolTip": "ConfigGenerator\\Program.fs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-21T08:13:31.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

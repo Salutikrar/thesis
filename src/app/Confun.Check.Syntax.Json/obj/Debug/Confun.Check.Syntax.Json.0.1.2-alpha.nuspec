@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Confun.Check.Syntax.Json</id>
+    <version>0.1.2-alpha</version>
+    <authors>Viridovics</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/Viridovics/Confun</projectUrl>
+    <description>Confun is a system for describing, validating and generating config files usings F#. This package is Json config generator.
+
+      Examples:
+      https://github.com/Viridovics/Confun/tree/master/src/examples</description>
+    <copyright>Copyright ©2020 Viridovics</copyright>
+    <repository type="git" url="https://github.com/Viridovics/Confun" commit="ef1632e7739d4b22548837765e2c1e7b55924dc8" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Confun.Core" version="0.1.2-alpha" exclude="Build,Analyzers" />
+        <dependency id="Confun.Core.Types" version="0.1.2-alpha" exclude="Build,Analyzers" />
+        <dependency id="FSharp.Core" version="8.0.200" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="YamlDotNet" version="8.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin\OneDrive\Документы\GitHub\thesis\src\app\Confun.Check.Syntax.Json\bin\Debug\netstandard2.0\Confun.Check.Syntax.Json.dll" target="lib\netstandard2.0\Confun.Check.Syntax.Json.dll" />
+    <file src="C:\Users\admin\OneDrive\Документы\GitHub\thesis\LICENSE" target="LICENSE" />
+  </files>
+</package>
