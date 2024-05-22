@@ -1,9 +1,4 @@
-# NugetConfigsWithPsScripts
-
 ## How to run
 
-> ...\> run .\buildAndRun.ps1
+> ...\> run .\buildAndRun.ps1 -Path path_to_validating_config
 
-##  Example motivation
-
-Simple demonstration of config generation.
